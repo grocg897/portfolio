@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif">
+  <rect width="1200" height="675" fill="#f4f1ea"/>
+  <circle cx="80" cy="90" r="130" fill="#efeadd"/>
+
+  <!-- 应用窗口 -->
+  <rect x="100" y="64" width="1000" height="552" rx="20" fill="#ffffff" stroke="#ddd5c6" stroke-width="2"/>
+  <rect x="100" y="64" width="1000" height="54" rx="20" fill="#faf8f3"/>
+  <rect x="100" y="98" width="1000" height="20" fill="#faf8f3"/>
+  <circle cx="132" cy="91" r="8" fill="#7c5cff"/>
+  <text x="152" y="97" font-size="17" font-weight="600" fill="#161310">课语通 · 课程问答助手</text>
+  <rect x="968" y="76" width="104" height="30" rx="15" fill="#f1ecff"/>
+  <text x="1020" y="96" font-size="14" fill="#5b3fd6" text-anchor="middle">已索引 3 门课</text>
+
+  <!-- 左侧：资料上传面板 -->
+  <rect x="124" y="142" width="268" height="450" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+  <text x="148" y="178" font-size="16" font-weight="600" fill="#161310">课程资料</text>
+  <rect x="148" y="196" width="220" height="44" rx="10" fill="#f1ecff"/>
+  <path d="M162 210h18v16h-18z" fill="#7c5cff"/>
+  <path d="M167 210v-5h8v5" fill="none" stroke="#7c5cff" stroke-width="2"/>
+  <text x="190" y="223" font-size="14" fill="#4b4640">操作系统 · 第4章.pdf</text>
+  <g font-size="13" fill="#5b3fd6">
+    <rect x="290" y="204" width="64" height="26" rx="13" fill="#fff"/><text x="322" y="221" text-anchor="middle">索引完成</text>
+  </g>
+  <g font-size="14" fill="#4b4640">
+    <rect x="148" y="252" width="220" height="44" rx="10" fill="#fff" stroke="#e7e0d1"/>
+    <rect x="162" y="266" width="16" height="18" rx="3" fill="#cfc6b2"/>
+    <text x="190" y="279">数据结构 · 讲义.pdf</text>
+    <rect x="148" y="308" width="220" height="44" rx="10" fill="#fff" stroke="#e7e0d1"/>
+    <rect x="162" y="322" width="16" height="18" rx="3" fill="#cfc6b2"/>
+    <text x="190" y="335">机器学习 · 笔记.md</text>
+  </g>
+  <rect x="148" y="366" width="220" height="40" rx="20" fill="none" stroke="#7c5cff" stroke-width="2" stroke-dasharray="7 6"/>
+  <path d="M250 378v16m-8-8h16" stroke="#7c5cff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="276" y="392" font-size="14" fill="#5b3fd6">上传更多资料</text>
+  <text x="148" y="446" font-size="13" fill="#8a8378">知识索引：1,286 个片段</text>
+  <g transform="translate(148,468)">
+    <rect width="220" height="100" rx="12" fill="#fff" stroke="#e7e0d1"/>
+    <text x="16" y="28" font-size="13" fill="#8a8378">高频知识点</text>
+    <g font-size="12" fill="#5b3fd6">
+      <rect x="16" y="40" width="88" height="24" rx="12" fill="#f1ecff"/><text x="60" y="56" text-anchor="middle">进程调度</text>
+      <rect x="112" y="40" width="92" height="24" rx="12" fill="#f1ecff"/><text x="158" y="56" text-anchor="middle">页面置换</text>
+      <rect x="16" y="70" width="76" height="24" rx="12" fill="#f1ecff"/><text x="54" y="86" text-anchor="middle">死锁</text>
+    </g>
+  </g>
+
+  <!-- 主聊天区 -->
+  <!-- 用户提问 -->
+  <rect x="620" y="158" width="430" height="64" rx="18" fill="#7c5cff"/>
+  <text x="644" y="186" font-size="16" fill="#fff">进程和线程的区别是什么？</text>
+  <text x="644" y="208" font-size="13" fill="#d9ceff">来自《操作系统 · 第4章》复习</text>
+  <circle cx="1032" cy="176" r="4" fill="#d9ceff"/><circle cx="1032" cy="190" r="4" fill="#d9ceff"/><circle cx="1032" cy="204" r="4" fill="#d9ceff"/>
+
+  <!-- AI 回答 -->
+  <rect x="416" y="244" width="540" height="176" rx="18" fill="#faf8f3" stroke="#e7e0d1"/>
+  <circle cx="448" cy="276" r="12" fill="#7c5cff"/>
+  <text x="448" y="281" font-size="12" fill="#fff" text-anchor="middle">AI</text>
+  <g fill="#4b4640">
+    <rect x="472" y="266" width="436" height="12" rx="6"/>
+    <rect x="472" y="290" width="404" height="12" rx="6"/>
+    <rect x="472" y="314" width="420" height="12" rx="6"/>
+    <rect x="472" y="338" width="330" height="12" rx="6"/>
+  </g>
+  <g transform="translate(472,362)">
+    <rect width="118" height="26" rx="13" fill="#f1ecff"/>
+    <text x="14" y="17" font-size="13" fill="#5b3fd6">引用 [1] P.87</text>
+    <rect x="128" width="118" height="26" rx="13" fill="#f1ecff"/>
+    <text x="142" y="17" font-size="13" fill="#5b3fd6">引用 [2] P.91</text>
+  </g>
+  <g font-size="12" fill="#8a8378" transform="translate(472,398)">
+    <text>① 资源调度单位不同　② 地址空间隔离　③ 上下文切换开销</text>
+  </g>
+
+  <!-- 知识点小测 -->
+  <g transform="translate(416,448)">
+    <rect width="540" height="144" rx="18" fill="#fff" stroke="#ddd5c6" stroke-width="2"/>
+    <rect x="24" y="24" width="96" height="28" rx="14" fill="#fde7e0"/>
+    <text x="72" y="43" font-size="14" fill="#b23a24" text-anchor="middle">知识点小测</text>
+    <text x="136" y="43" font-size="16" fill="#161310">下列哪种状态转换是不可能直接发生的？</text>
+    <g font-size="15" fill="#4b4640">
+      <rect x="24" y="66" width="240" height="30" rx="8" fill="#faf8f3"/><text x="40" y="86">A. 就绪 → 运行</text>
+      <rect x="284" y="66" width="232" height="30" rx="8" fill="#faf8f3"/><text x="300" y="86">B. 运行 → 就绪</text>
+      <rect x="24" y="104" width="240" height="30" rx="8" fill="#f1ecff" stroke="#7c5cff"/><text x="40" y="124" fill="#5b3fd6">C. 阻塞 → 运行 ✓</text>
+      <rect x="284" y="104" width="232" height="30" rx="8" fill="#faf8f3"/><text x="300" y="124">D. 运行 → 阻塞</text>
+    </g>
+  </g>
+</svg>

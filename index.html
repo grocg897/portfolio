@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小和 — 个人作品集</title>
+  <meta name="description" content="小和的个人作品集，展示 AI 应用、数据可视化与前后端方向的项目作品、技能与联系方式。" />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- ============ 左侧：个人介绍 / 技能 / 导航 ============ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <header class="profile">
+          <div class="avatar" aria-hidden="true">和</div>
+          <h1 class="profile-name">小和</h1>
+          <p class="profile-role">AI 辅助开发 / 大语言模型</p>
+          <p class="profile-tagline">软件工程在读 · 关注 AI 与大语言模型应用。</p>
+        </header>
+
+        <nav class="nav" aria-label="主导航">
+          <a href="#projects" class="nav-link" data-target="projects">
+            <span class="nav-num">01</span><span>项目作品</span>
+          </a>
+          <a href="#about" class="nav-link" data-target="about">
+            <span class="nav-num">02</span><span>关于我</span>
+          </a>
+          <a href="#contact" class="nav-link" data-target="contact">
+            <span class="nav-num">03</span><span>联系方式</span>
+          </a>
+        </nav>
+
+        <section class="skills">
+          <h2 class="section-label">技能方向</h2>
+          <ul class="skill-list">
+            <li><span>技能</span><small>Python · Java · TypeScript · HTML/CSS</small></li>
+            <li><span>持续学习</span><small>前后端开发 · 数据可视化 · AI 应用构建</small></li>
+          </ul>
+        </section>
+
+        <footer class="sidebar-foot">
+          <a class="chip" href="mailto:xiaohe@example.com">xiaohe@example.com</a>
+          <div class="socials">
+            <a href="https://github.com/xiaohe-dev" class="social" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://xiaohe.dev" class="social" target="_blank" rel="noopener">个人主页</a>
+          </div>
+          <p class="loc">中国 · 广州</p>
+        </footer>
+      </div>
+    </aside>
+
+    <!-- ============ 右侧：主内容 ============ -->
+    <main class="main">
+      <section class="hero">
+        <p class="hero-eyebrow">作品集 / Portfolio</p>
+        <h2 class="hero-title">
+          你好，我是<span class="accent">小和</span>。<br />
+          一名关注 AI 辅助开发与大语言模型的学生。
+        </h2>
+        <p class="hero-desc">
+          这里收录了我在 AI 应用、数据可视化与前后端开发方向的部分项目实践。每个项目都附有背景、技术栈与实现说明，欢迎向下滚动了解。
+        </p>
+        <a href="#projects" class="scroll-cue">
+          <span>查看作品</span>
+          <span class="arrow">↓</span>
+        </a>
+      </section>
+
+      <section id="projects" class="projects">
+        <header class="section-head">
+          <span class="section-head-num">— 01</span>
+          <h2 class="section-head-title">项目作品</h2>
+          <p class="section-head-sub">按时间倒序排列，共 <span id="proj-count">0</span> 个。</p>
+        </header>
+        <div id="project-list" class="project-list">
+          <!-- 由 main.js 渲染 -->
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <header class="section-head">
+          <span class="section-head-num">— 02</span>
+          <h2 class="section-head-title">关于我</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>我叫小和，是软件工程专业的学生，目前主要关注 AI 辅助开发与大语言模型技术。</p>
+            <p>平时主要使用 Python、Java 和 TypeScript 进行项目开发，也在持续学习前后端开发、数据可视化和 AI 应用构建。</p>
+          </div>
+          <dl class="about-facts">
+            <div><dt>教育</dt><dd>广州软件学院 · 软件工程在读</dd></div>
+            <div><dt>方向</dt><dd>AI 辅助开发 / 大语言模型应用</dd></div>
+            <div><dt>地点</dt><dd>中国 · 广州</dd></div>
+            <div><dt>状态</dt><dd>在读</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <header class="section-head">
+          <span class="section-head-num">— 03</span>
+          <h2 class="section-head-title">联系方式</h2>
+        </header>
+        <p class="contact-lead">如果你对我的作品感兴趣，或希望就 AI 应用、数据可视化与前后端方向的协作交流，欢迎通过以下方式联系我。</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">邮箱</span>
+            <a href="mailto:xiaohe@example.com">xiaohe@example.com</a>
+          </li>
+          <li>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/xiaohe-dev" target="_blank" rel="noopener">github.com/xiaohe-dev</a>
+          </li>
+          <li>
+            <span class="contact-label">微信</span>
+            <span>xiaohezi</span>
+          </li>
+          <li>
+            <span class="contact-label">主页</span>
+            <a href="https://xiaohe.dev" target="_blank" rel="noopener">xiaohe.dev</a>
+          </li>
+        </ul>
+        <button id="back-to-top" class="back-to-top hidden" type="button" aria-label="返回顶部">
+          <span>返回顶部</span><span>↑</span>
+        </button>
+      </section>
+
+      <footer class="main-foot">
+        <span>© 2026 小和</span>
+        <span>使用原生 HTML / CSS / JS 构建</span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39d2ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#39d2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1524"/>
+      <stop offset="100%" stop-color="#101d33"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#f4f1ea"/>
+
+  <!-- 大屏外框 -->
+  <rect x="60" y="46" width="1080" height="584" rx="14" fill="url(#screen)" stroke="#243654" stroke-width="2"/>
+
+  <!-- 顶部标题栏 -->
+  <path d="M330 46h540l-24 34H354z" fill="#16263f" stroke="#2c4468" stroke-width="1.5"/>
+  <text x="600" y="70" font-size="19" font-weight="600" fill="#9fd8ff" text-anchor="middle" letter-spacing="6">城市脉搏 · 实时监控大屏</text>
+  <text x="1096" y="76" font-size="15" fill="#5f7ba6" text-anchor="end">2026-03-20 09:41</text>
+
+  <!-- 左侧面板：交通流量 -->
+  <g>
+    <rect x="88" y="108" width="240" height="240" rx="10" fill="#131f36" stroke="#243654"/>
+    <text x="106" y="140" font-size="15" fill="#8fb3d9">实时交通流量</text>
+    <polyline points="104,308 136,286 168,296 200,252 232,268 264,222 296,240 312,206" fill="none" stroke="#39d2ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#39d2ff"><circle cx="200" cy="252" r="4"/><circle cx="264" cy="222" r="4"/><circle cx="312" cy="206" r="4"/></g>
+    <polyline points="104,318 136,312 168,318 200,300 232,306 264,290 296,296 312,284" fill="none" stroke="#f0b64a" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.85"/>
+    <g font-size="12" fill="#5f7ba6"><text x="106" y="336">06:00</text><text x="196" y="336">12:00</text><text x="286" y="336">18:00</text></g>
+  </g>
+  <g>
+    <rect x="88" y="368" width="240" height="234" rx="10" fill="#131f36" stroke="#243654"/>
+    <text x="106" y="400" font-size="15" fill="#8fb3d9">拥堵指数 TOP5</text>
+    <g font-size="13" fill="#7d9cc4">
+      <text x="106" y="428">天河路</text><text x="106" y="466">中山大道</text><text x="106" y="504">科韵路</text><text x="106" y="542">黄埔大道</text><text x="106" y="580">解放桥</text>
+    </g>
+    <g fill="#2c4468">
+      <rect x="176" y="416" width="132" height="14" rx="7"/><rect x="176" y="454" width="112" height="14" rx="7"/><rect x="176" y="492" width="94" height="14" rx="7"/><rect x="176" y="530" width="76" height="14" rx="7"/><rect x="176" y="568" width="58" height="14" rx="7"/>
+    </g>
+    <g fill="#ff6d5a">
+      <rect x="176" y="416" width="132" height="14" rx="7"/><rect x="176" y="454" width="112" height="14" rx="7"/><rect x="176" y="492" width="94" height="14" rx="7"/>
+    </g>
+    <rect x="176" y="530" width="76" height="14" rx="7" fill="#f0b64a"/>
+    <rect x="176" y="568" width="58" height="14" rx="7" fill="#39d2ff"/>
+  </g>
+
+  <!-- 中央：城市粒子地图 -->
+  <g>
+    <rect x="352" y="108" width="496" height="494" rx="10" fill="#0f1a2e" stroke="#243654"/>
+    <!-- 街道路网 -->
+    <g stroke="#22334f" stroke-width="3" fill="none">
+      <path d="M380 180h440M380 260h440M380 340h440M380 420h440M380 500h440"/>
+      <path d="M440 140v430M530 140v430M620 140v430M710 140v430M800 140v430"/>
+      <path d="M380 180l120 80 90-60 110 90 120-40M380 420l90 80h160l80-80 118 60" stroke="#2c4468" stroke-width="2"/>
+    </g>
+    <!-- 粒子流动线 -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M440 180C520 220 560 300 620 340s120 80 180 160" stroke="#39d2ff" stroke-width="2.5" opacity="0.9"/>
+      <path d="M530 500C570 420 660 400 710 340s90-120 90-200" stroke="#7dffb2" stroke-width="2.5" opacity="0.85"/>
+      <path d="M380 260c80 0 140 60 240 60s160-40 228-60" stroke="#f0b64a" stroke-width="2.5" opacity="0.8"/>
+    </g>
+    <!-- 发光节点 -->
+    <g>
+      <circle cx="620" cy="340" r="26" fill="url(#glow)"/><circle cx="620" cy="340" r="5" fill="#bff0ff"/>
+      <circle cx="440" cy="180" r="18" fill="url(#glow)"/><circle cx="440" cy="180" r="4" fill="#bff0ff"/>
+      <circle cx="800" cy="500" r="20" fill="url(#glow)"/><circle cx="800" cy="500" r="4" fill="#bff0ff"/>
+      <circle cx="710" cy="260" r="14" fill="url(#glow)" opacity="0.8"/><circle cx="710" cy="260" r="3.5" fill="#bff0ff"/>
+      <circle cx="530" cy="420" r="14" fill="url(#glow)" opacity="0.8"/><circle cx="530" cy="420" r="3.5" fill="#bff0ff"/>
+    </g>
+    <!-- 图例 -->
+    <g transform="translate(376,548)" font-size="13" fill="#7d9cc4">
+      <circle cx="8" cy="-4" r="4" fill="#39d2ff"/><text x="20" y="0">主干道畅通</text>
+      <circle cx="128" cy="-4" r="4" fill="#f0b64a"/><text x="140" y="0">缓行</text>
+      <circle cx="212" cy="-4" r="4" fill="#ff6d5a"/><text x="224" y="0">拥堵</text>
+    </g>
+  </g>
+
+  <!-- 右侧：天气与空气 -->
+  <g>
+    <rect x="872" y="108" width="240" height="240" rx="10" fill="#131f36" stroke="#243654"/>
+    <text x="890" y="140" font-size="15" fill="#8fb3d9">实时天气</text>
+    <circle cx="930" cy="196" r="22" fill="#f0b64a"/>
+    <g stroke="#f0b64a" stroke-width="3" stroke-linecap="round">
+      <path d="M930 160v-10M930 242v-10M894 196h-10M976 196h-10M905 171l-7-7M962 228l-7-7M955 171l7-7M898 228l7-7"/>
+    </g>
+    <text x="976" y="204" font-size="26" font-weight="600" fill="#e8f2ff">28°</text>
+    <g font-size="14" fill="#7d9cc4">
+      <text x="890" y="266">湿度 62% · 东南风 2 级</text>
+      <text x="890" y="292">紫外线 中等 · 降水 10%</text>
+    </g>
+    <g transform="translate(890,312)">
+      <rect width="60" height="24" rx="12" fill="#1b2c48"/>
+      <text x="30" y="16" font-size="12" fill="#9fd8ff" text-anchor="middle">晴 26°</text>
+      <rect x="70" width="60" height="24" rx="12" fill="#1b2c48"/>
+      <text x="100" y="16" font-size="12" fill="#9fd8ff" text-anchor="middle">多云 24°</text>
+      <rect x="140" width="60" height="24" rx="12" fill="#1b2c48"/>
+      <text x="170" y="16" font-size="12" fill="#9fd8ff" text-anchor="middle">雨 21°</text>
+    </g>
+  </g>
+  <g>
+    <rect x="872" y="368" width="240" height="234" rx="10" fill="#131f36" stroke="#243654"/>
+    <text x="890" y="400" font-size="15" fill="#8fb3d9">城市运行指标</text>
+    <g font-size="13" fill="#7d9cc4">
+      <text x="890" y="432">平均车速</text><text x="1094" y="432" text-anchor="end" fill="#39d2ff" font-weight="600">38.2 km/h</text>
+      <text x="890" y="470">在途车辆</text><text x="1094" y="470" text-anchor="end" fill="#e8f2ff" font-weight="600">126.4 万</text>
+      <text x="890" y="508">地铁客流</text><text x="1094" y="508" text-anchor="end" fill="#e8f2ff" font-weight="600">418.9 万</text>
+      <text x="890" y="546">空气质量</text><text x="1094" y="546" text-anchor="end" fill="#7dffb2" font-weight="600">优 AQI 42</text>
+    </g>
+    <rect x="890" y="566" width="204" height="10" rx="5" fill="#1b2c48"/>
+    <rect x="890" y="566" width="150" height="10" rx="5" fill="#39d2ff"/>
+  </g>
+</svg>

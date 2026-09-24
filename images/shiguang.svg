@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif">
+  <rect width="1200" height="675" fill="#f4f1ea"/>
+  <circle cx="1105" cy="610" r="170" fill="#efeadd"/>
+
+  <!-- 浏览器窗口 -->
+  <rect x="90" y="60" width="1020" height="560" rx="20" fill="#ffffff" stroke="#ddd5c6" stroke-width="2"/>
+  <rect x="90" y="60" width="1020" height="52" rx="20" fill="#faf8f3"/>
+  <rect x="90" y="92" width="1020" height="20" fill="#faf8f3"/>
+  <circle cx="126" cy="86" r="7" fill="#e8472d"/>
+  <circle cx="150" cy="86" r="7" fill="#e5c26a"/>
+  <circle cx="174" cy="86" r="7" fill="#3d9a6b"/>
+  <rect x="210" y="72" width="420" height="28" rx="14" fill="#f4f1ea"/>
+  <text x="228" y="91" font-size="15" fill="#8a8378">shiguang.market</text>
+  <text x="1046" y="92" font-size="16" font-weight="600" fill="#161310">拾光集市</text>
+
+  <!-- 搜索栏与分类 -->
+  <rect x="120" y="134" width="560" height="40" rx="20" fill="#f4f1ea"/>
+  <circle cx="146" cy="154" r="9" fill="none" stroke="#8a8378" stroke-width="2.5"/>
+  <line x1="153" y1="161" x2="161" y2="169" stroke="#8a8378" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="168" y="160" font-size="16" fill="#8a8378">搜索二手好物…</text>
+  <g font-size="15" text-anchor="middle">
+    <rect x="700" y="134" width="76" height="40" rx="20" fill="#e8472d"/><text x="738" y="159" fill="#fff">全部</text>
+    <rect x="790" y="134" width="76" height="40" rx="20" fill="#f4f1ea"/><text x="828" y="159" fill="#4b4640">教材</text>
+    <rect x="880" y="134" width="76" height="40" rx="20" fill="#f4f1ea"/><text x="918" y="159" fill="#4b4640">数码</text>
+    <rect x="970" y="134" width="76" height="40" rx="20" fill="#f4f1ea"/><text x="1008" y="159" fill="#4b4640">生活</text>
+  </g>
+
+  <!-- 商品卡片网格 -->
+  <g>
+    <g transform="translate(120,206)">
+      <rect width="300" height="186" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+      <rect x="16" y="16" width="120" height="92" rx="10" fill="#e7e0d1"/>
+      <path d="M36 92l30-34 22 24 16-16 32 26z" fill="#cfc6b2"/>
+      <circle cx="112" cy="38" r="10" fill="#f4f1ea"/>
+      <text x="152" y="46" font-size="18" font-weight="600" fill="#161310">高数教材（九成新）</text>
+      <text x="152" y="74" font-size="16" fill="#8a8378">学长自用 · 无笔记</text>
+      <text x="16" y="150" font-size="22" font-weight="700" fill="#e8472d">¥25</text>
+      <rect x="200" y="128" width="84" height="30" rx="15" fill="#fde7e0"/>
+      <text x="242" y="149" font-size="14" fill="#b23a24" text-anchor="middle">九成新</text>
+    </g>
+    <g transform="translate(450,206)">
+      <rect width="300" height="186" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+      <rect x="16" y="16" width="120" height="92" rx="10" fill="#e7e0d1"/>
+      <rect x="40" y="34" width="72" height="52" rx="6" fill="#cfc6b2"/>
+      <rect x="48" y="42" width="56" height="8" rx="4" fill="#f4f1ea"/>
+      <rect x="48" y="58" width="40" height="8" rx="4" fill="#f4f1ea"/>
+      <text x="152" y="46" font-size="18" font-weight="600" fill="#161310">机械键盘 87 键</text>
+      <text x="152" y="74" font-size="16" fill="#8a8378">国产轴 · 附键线</text>
+      <text x="16" y="150" font-size="22" font-weight="700" fill="#e8472d">¥180</text>
+      <rect x="200" y="128" width="84" height="30" rx="15" fill="#e3efe7"/>
+      <text x="242" y="149" font-size="14" fill="#2f7a53" text-anchor="middle">95 新</text>
+    </g>
+    <g transform="translate(780,206)">
+      <rect width="300" height="186" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+      <rect x="16" y="16" width="120" height="92" rx="10" fill="#e7e0d1"/>
+      <circle cx="76" cy="62" r="30" fill="#cfc6b2"/>
+      <circle cx="76" cy="52" r="11" fill="#f4f1ea"/>
+      <path d="M54 84a24 16 0 0 1 44 0" fill="#f4f1ea"/>
+      <text x="152" y="46" font-size="18" font-weight="600" fill="#161310">山地自行车</text>
+      <text x="152" y="74" font-size="16" fill="#8a8378">毕业出 · 已保养</text>
+      <text x="16" y="150" font-size="22" font-weight="700" fill="#e8472d">¥420</text>
+      <rect x="200" y="128" width="84" height="30" rx="15" fill="#fde7e0"/>
+      <text x="242" y="149" font-size="14" fill="#b23a24" text-anchor="middle">八成新</text>
+    </g>
+    <g transform="translate(120,412)">
+      <rect width="300" height="186" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+      <rect x="16" y="16" width="120" height="92" rx="10" fill="#e7e0d1"/>
+      <rect x="42" y="30" width="68" height="64" rx="8" fill="#cfc6b2"/>
+      <path d="M58 78l16-20 12 12 10-10 14 18z" fill="#f4f1ea"/>
+      <text x="152" y="46" font-size="18" font-weight="600" fill="#161310">台灯 · 护眼款</text>
+      <text x="152" y="74" font-size="16" fill="#8a8378">宿舍神器 · 三档光</text>
+      <text x="16" y="150" font-size="22" font-weight="700" fill="#e8472d">¥39</text>
+      <rect x="200" y="128" width="84" height="30" rx="15" fill="#e3efe7"/>
+      <text x="242" y="149" font-size="14" fill="#2f7a53" text-anchor="middle">9 成新</text>
+    </g>
+    <g transform="translate(450,412)">
+      <rect width="300" height="186" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+      <rect x="16" y="16" width="120" height="92" rx="10" fill="#e7e0d1"/>
+      <rect x="38" y="36" width="76" height="50" rx="6" fill="#cfc6b2"/>
+      <circle cx="76" cy="61" r="15" fill="#f4f1ea"/>
+      <circle cx="76" cy="61" r="7" fill="#cfc6b2"/>
+      <text x="152" y="46" font-size="18" font-weight="600" fill="#161310">电煮锅 1.2L</text>
+      <text x="152" y="74" font-size="16" fill="#8a8378">一人在寝 · 刚用一学期</text>
+      <text x="16" y="150" font-size="22" font-weight="700" fill="#e8472d">¥55</text>
+      <rect x="200" y="128" width="84" height="30" rx="15" fill="#fde7e0"/>
+      <text x="242" y="149" font-size="14" fill="#b23a24" text-anchor="middle">九成新</text>
+    </g>
+    <g transform="translate(780,412)">
+      <rect width="300" height="186" rx="16" fill="#faf8f3" stroke="#e7e0d1"/>
+      <rect x="16" y="16" width="120" height="92" rx="10" fill="#e7e0d1"/>
+      <rect x="36" y="28" width="80" height="10" rx="5" fill="#cfc6b2"/>
+      <rect x="36" y="48" width="62" height="10" rx="5" fill="#cfc6b2"/>
+      <rect x="36" y="68" width="72" height="10" rx="5" fill="#cfc6b2"/>
+      <rect x="36" y="88" width="48" height="10" rx="5" fill="#cfc6b2"/>
+      <text x="152" y="46" font-size="18" font-weight="600" fill="#161310">考研资料全套</text>
+      <text x="152" y="74" font-size="16" fill="#8a8378">含真题 · 附笔记</text>
+      <text x="16" y="150" font-size="22" font-weight="700" fill="#e8472d">¥66</text>
+      <rect x="200" y="128" width="84" height="30" rx="15" fill="#e3efe7"/>
+      <text x="242" y="149" font-size="14" fill="#2f7a53" text-anchor="middle">全新</text>
+    </g>
+  </g>
+
+  <!-- 私信/信用角标 -->
+  <g transform="translate(872,530)">
+    <rect width="206" height="60" rx="30" fill="#161310"/>
+    <circle cx="32" cy="30" r="12" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <path d="M24 30a8 6 0 0 0 16 0" fill="none" stroke="#fff" stroke-width="2.5" transform="translate(0,-2)"/>
+    <text x="54" y="37" font-size="17" fill="#fff">站内私信 · 信用分</text>
+  </g>
+</svg>
