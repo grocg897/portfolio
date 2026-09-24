@@ -145,9 +145,31 @@
     onScroll();
   }
 
+  /** 主题切换：读取/写入 localStorage，切换 data-theme */
+  function setupTheme() {
+    const btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+
+    function current() {
+      return document.documentElement.getAttribute("data-theme") || "light";
+    }
+    function sync() {
+      btn.setAttribute("aria-pressed", current() === "dark" ? "true" : "false");
+    }
+    sync();
+
+    btn.addEventListener("click", function () {
+      const next = current() === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("theme", next);
+      sync();
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     renderProjects();
     setupNav();
     setupBackToTop();
+    setupTheme();
   });
 })();
